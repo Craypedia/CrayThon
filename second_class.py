@@ -86,3 +86,8 @@
 
 list_a = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
 print(list_a[2][2][0] + list_a[2][3])
+
+
+
+Write a program that takes in the user input of his favourite colour and adds it to an existing list of colours.
+color_list = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
