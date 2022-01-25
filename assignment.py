@@ -24,7 +24,12 @@ print(this_list)
 
 4.
 color_list = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-user_list = color_list.split(" ")
-print("\n")
-print("Please Enter Your Preferred Color")
-print(user_list)
+prompt = input("Please enter your colour")
+user_list = prompt
+color_list.append(user_list)
+print(color_list)
+
+
+
+
+
