@@ -2,7 +2,7 @@ from operator import ne
 
 
 my_list = [ "The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog."]
-new_list = "".join(my_list)
+new_list = " ".join(my_list)
 print(new_list)
 
 
