@@ -16,8 +16,7 @@ print(new_list)
 3.
 
 this_list = ["Red", "Green", "White", "Black", "Pink", "Yellow"]
-this_list.remove("Red", "Pink", "Yellow")
-print(this_list)
+print(this_list[1:4])
 
 
 
@@ -25,8 +24,7 @@ print(this_list)
 4.
 color_list = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 prompt = input("Please enter your colour")
-user_list = prompt
-color_list.append(user_list)
+color_list.append(prompt)
 print(color_list)
 
 
