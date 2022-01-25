@@ -8,8 +8,8 @@ print(new_list)
 
 2.
 
-new_list = ['this', "brown", "55", "oxen", "True", "0.85"]
-new_list [4] = 'False'
+new_list = ['this', "brown", "55", "oxen", True, 0.85]
+new_list [4] = False
 print(new_list)
 
 
